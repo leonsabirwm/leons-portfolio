@@ -6,7 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

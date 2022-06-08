@@ -1,0 +1,53 @@
+.details-btn{
+    padding: 8px 12px;
+    background-color: #3cbbfa;
+    visibility: hidden;
+}
+.project-desc{
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.438);
+    /* display: none; */
+}
+.projectFirst{
+    background-image: url('../../works/amrap.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.projectSecond{
+    background-image: url('../../works/warrior-arsenal.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.projectThird{
+    background-image: url('../../works/kung-ip.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.projectFirst:hover .details-btn{
+    visibility: visible;  
+
+}
+.projectFirst:hover .project-desc{
+    visibility: visible;  
+
+}
+.projectSecond:hover .details-btn{
+    visibility: visible;  
+
+}
+.projectSecond:hover .project-desc{
+    visibility: visible;  
+
+}
+.projectThird:hover .details-btn{
+    visibility: visible;  
+
+}
+.projectThird:hover .project-desc{
+    visibility: visible;  
+
+}
