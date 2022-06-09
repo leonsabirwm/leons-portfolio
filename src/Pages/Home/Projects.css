@@ -3,9 +3,19 @@
     background-color: #3cbbfa;
     visibility: hidden;
 }
+.details-second{
+    visibility: hidden;
+}
+.details-third{
+    visibility: hidden;
+}
+.details-fourth{
+    visibility: hidden;
+}
 .project-desc{
     visibility: hidden;
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 2px 8px;
     /* display: none; */
 }
 .projectFirst{
@@ -17,16 +27,18 @@
 .projectSecond{
     background-image: url('../../works/warrior-arsenal.png');
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;   
 }
 .projectThird{
     background-image: url('../../works/kung-ip.png');
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
 }
-
+.projectFourth{
+    background-image: url('../../works/lucid-review.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
 .projectFirst:hover .details-btn{
     visibility: visible;  
 
@@ -35,9 +47,11 @@
     visibility: visible;  
 
 }
-.projectSecond:hover .details-btn{
+.projectSecond:hover .details-second{
     visibility: visible;  
-
+}
+.projectThird:hover .details-third{
+    visibility: visible;  
 }
 .projectSecond:hover .project-desc{
     visibility: visible;  
@@ -50,4 +64,10 @@
 .projectThird:hover .project-desc{
     visibility: visible;  
 
+}
+.projectFourth:hover .details-fourth{
+    visibility: visible;  
+}
+.projectFourth:hover .project-desc{
+    visibility: visible;  
 }

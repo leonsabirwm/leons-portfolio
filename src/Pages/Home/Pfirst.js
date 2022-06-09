@@ -9,7 +9,7 @@ export const Pfirst = () => {
             <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates necessitatibus quasi voluptate eligendi facere est, adipisci, a, laborum numquam temporibus dolore unde culpa.</p>
             </div>
             <div className='w-full'>
-                <button className='w-full details-btn'>Details</button>
+                <button className='w-full text-white details-btn'>Details</button>
             </div>
         </div>
     </div>

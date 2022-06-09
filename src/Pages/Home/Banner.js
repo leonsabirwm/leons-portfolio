@@ -16,8 +16,8 @@ export const Banner = () => {
                 <h4 className='text-5xl font-medium text-white text-right'>Web Developer</h4>
                 <p className=' my-8 text-white text-lg text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, omnis vitae mollitia cum eius qui quo quaerat asperiores provident similique vero, consequuntur enim quibusdam nemo doloremque. Modi repudiandae rem eligendi!</p>
                <div className='flex '>
-               <a target='_blank' href='https://drive.google.com/u/0/uc?id=1sI9zLkAjn-5dCTzbJp0hN-xNWqbDaAve&export=download'><button className='btn-primary'>Download Resume</button></a>
-                <a className='ml-4' target='_blank' href='https://drive.google.com/file/d/1sI9zLkAjn-5dCTzbJp0hN-xNWqbDaAve/view'><button className='btn-print p-4'>Print Resume</button></a>
+               <a target='_blank' rel='noreferrer' href='https://drive.google.com/u/0/uc?id=1sI9zLkAjn-5dCTzbJp0hN-xNWqbDaAve&export=download'><button className='btn-primary'>Download Resume</button></a>
+                <a className='ml-4' rel='noreferrer' target='_blank' href='https://drive.google.com/file/d/1sI9zLkAjn-5dCTzbJp0hN-xNWqbDaAve/view'><button className='btn-print p-4'>Print Resume</button></a>
                </div>
             </div>
         </div>
