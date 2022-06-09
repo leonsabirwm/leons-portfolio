@@ -23,7 +23,7 @@ export const Touch = () => {
             <div className='flex flex-col justify-center items-start shadow-lg p-4'>
                 <h3 className='text-3xl text-sky-500'><BsEnvelope></BsEnvelope></h3>
                 <h4 className="text-xl my-1">Email</h4>
-                <p className="">imailhossan11@gmail.com</p>
+                <p className="">leonhossan11@gmail.com</p>
             </div>
         </div>
     </div>

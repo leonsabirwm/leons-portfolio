@@ -16,8 +16,8 @@ export const Connect = () => {
         })
     };
   return (
-    <div className='mx-16'>
-        <div className='flex lg:flex-row flex-col justify-between'>
+    <div className='mx-16 my-8'>
+        <div className='flex lg:flex-row flex-col justify-around'>
             <div className='flex flex-col items-start'>
                 <h3 className="text-3xl my-4">Let's Connect</h3>
                 <div className='flex items-center'>

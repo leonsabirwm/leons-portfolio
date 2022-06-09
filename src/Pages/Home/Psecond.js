@@ -1,15 +1,24 @@
 import React from 'react'
 import './Projects.css'
+import image from "../../works/warrior-arsenal.png"
+import { FiNavigation } from "react-icons/fi";
+import { useNavigate } from 'react-router-dom';
+
 
 export const Psecond = () => {
+    const navigate = useNavigate();
   return (
-    <div className='projectSecond flex justify-center'>
-    <div className='h-72 flex flex-col justify-between items-center'>
-        <div className='project-desc text-white'>
-        <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates necessitatibus quasi voluptate eligendi facere est, adipisci, a, laborum numquam temporibus dolore unde culpa.</p>
+    <div>
+    <div className='my-8 lg:my-0'>
+        <div>
+            <img className='h-64 w-full' src={image} alt="" />
         </div>
-        <div className='w-full'>
-            <button className='w-full text-white p-2 details-second bg-black'>Details</button>
+        <div className='hover:bg-gray-300 shadow-lg'>
+        <h2 className="text-2xl font-medium p-4 text-left">Warrior' Arsenal</h2>
+               <p className='text-justify mb-2 px-4'>
+               CRUD operation with Node and MongoDB based this app has features like restocking products and delivering products and the data gets updated according to the actions.Custom increcment and decrement amount is processed by the app and that change manipulated the data in database which results into the continuous flow of data.
+           </p>
+           <div><button onClick={()=>navigate('/projects/arsenal')} className='p-4 my-4 rounded-full bg-black text-sky-500 hover:bg-white border hover:border-sky-500'><FiNavigation></FiNavigation></button></div>
         </div>
     </div>
 </div>
